@@ -31,10 +31,8 @@ public class calculator<T extends Number> {
          for(operator oo : op) {
            if(oo.getOp().equals(c)) {
                  list.add(oo.calc(i,j));
-
              }
-          }
-         */
+          }*/
     }
 }
 

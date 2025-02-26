@@ -13,8 +13,8 @@ public class Main {
                 System.out.print("두번째 수를 입력하세요 : ");
                 j = sc.nextDouble();
             } catch (Exception e) {
-                System.out.println("양의 정수를 입력해주십시오.");
-                sc.nextLine();
+                System.out.println("양의 정수를 입력해주십시오.\n");
+                sc.nextLine(); // 버퍼를 비우는 용도
                 continue;
             }
             System.out.print("사칙연산 기호를 입력하세요 : ");
@@ -30,12 +30,10 @@ public class Main {
             if (d.equals("exit")) {
                 break;
             }
-
         }
-        System.out.println("\n수를 입력해주세요. 저장된 데이터중 입력된 값보다 더 큰 값을 검색합니다.");
+        System.out.println("\n수를 입력해주세요. 저장된 데이터 중 입력된 값보다 더 큰값을 검색합니다.");
         double k = sc.nextDouble();
         calc.bigger_data(k);
-
         //calc.remove();
         //calc.getter();
     }
