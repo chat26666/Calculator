@@ -25,14 +25,18 @@ public class Main {
             else {
                 calc.setter(i, j, c);
             }
-            System.out.println("\n더 계산하시겠습니까? (exit 입력 시 종료)");
+            System.out.println("\n더 계산하시겠습니까? (exit 입력 시 계산 종료)");
             String d = sc.next();
             if (d.equals("exit")) {
                 break;
             }
 
         }
-        calc.remove();
-        calc.getter();
+        System.out.println("\n수를 입력해주세요. 저장된 데이터중 입력된 값보다 더 큰 값을 검색합니다.");
+        double k = sc.nextDouble();
+        calc.bigger_data(k);
+
+        //calc.remove();
+        //calc.getter();
     }
 }
