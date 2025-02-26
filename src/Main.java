@@ -23,7 +23,7 @@ public class Main {
             if (c.equals("/") && j == 0) {
                 System.out.println("분모가 0 이 될수 없습니다. 재입력 부탁드립니다.");
             }
-            else if (c.equals("+") || c.equals("*") || c.equals("+") || c.equals("-")) {
+            else if (c.equals("-") || c.equals("*") || c.equals("+") || c.equals("/")) {
                 calc.setter(i, j, c);
             }
             else {
