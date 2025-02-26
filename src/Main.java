@@ -12,7 +12,7 @@ public class Main {
                 j = sc.nextInt();
             }
             catch (Exception e) {
-                System.out.println("에러 정수를 입력해주십시오.");
+                System.out.println("에러~ 정수를 입력해주십시오.");
                 System.out.println(e);
                 sc.nextLine();
                 continue;
